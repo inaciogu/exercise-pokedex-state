@@ -1,0 +1,28 @@
+.pokemon {
+  display: flex;
+  align-items: center;
+  font-family: 'Pokemon Solid', sans-serif;
+  justify-content: center;
+  font-size: large;
+  flex: 1 1 auto;
+  width: 330px;
+  height: 160px;
+  margin: 10px 10px;
+  border: 1px rgb(0, 0, 0) solid;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(212, 29, 29), white);
+  animation-name: hover-degrade;
+  background-size: 500%;
+  color: rgb(7, 7, 7);
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes hover-degrade {
+  0% {
+    background-position-x: 0%;
+  } 100% {
+    background-position-x: 100%;
+  }
+}

@@ -1,0 +1,41 @@
+.header {
+  font-family: 'Pokemon Solid', sans-serif;
+  border: 1px solid rgb(88, 83, 1);
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 70px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(187, 187, 8);
+  margin-right: 6px;
+}
+
+.pokeball {
+  width: 50px;
+  height: 50px;
+  align-self: flex-start;
+}
+
+.footer {
+  color: aliceblue;
+  height: 30px;
+  display: flex;
+  background-color: rgb(17, 17, 17);
+  align-items: center;
+}
+
+.symbol {
+  height: 30px;
+}
+
+.pokeball {
+  align-self: center;
+}
+
+.app {
+  text-align: center;
+}

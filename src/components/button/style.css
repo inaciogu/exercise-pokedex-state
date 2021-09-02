@@ -1,0 +1,28 @@
+.btn-primary {
+  font-family: 'Pokemon Solid', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.685);
+}
+
+.btn-primary:hover {
+  transform: scale(1.059);
+  transition: 0.5s;
+}
+
+.btn-warning {
+  font-family: 'Pokemon Solid', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.664);
+}
+
+.btn-warning:hover {
+  transform: scale(1.059);
+  transition: 0.5s;
+}
+
+.btn-dark {
+  font-family: 'Pokemon Solid', sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.788);
+}
+.btn-dark:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}

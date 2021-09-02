@@ -1,0 +1,40 @@
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  flex-flow: column;
+  align-items: center;
+}
+.dex-buttons {
+  display: flex;
+}
+
+.next-btn {
+  padding: 10px;
+}
+
+button {
+  margin: 10px 20px;
+}
+.disabled {
+  cursor: none;
+}
+
+/* .main {
+  display: flex;
+  background: linear-gradient(to right, #f72525,#FF6347, 
+  #FA8072, #DCDCDC);
+  background-size: 300% 300%;
+  animation-name: degrade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes degrade {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+} */

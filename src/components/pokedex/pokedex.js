@@ -25,6 +25,7 @@ class Pokedex extends React.Component {
         pokemonIndex: 0,
       })
     }
+    console.log(this.state)
   }
 
   // Elimina tipos repetidos
@@ -63,7 +64,6 @@ class Pokedex extends React.Component {
   }
 
   render() {
-    console.log(document.querySelector('.btn-primary'))
     const pokemonTypes = this.fetchPokemonTypes();
     return (
       <div className="pokedex">

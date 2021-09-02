@@ -1,7 +1,7 @@
 .header {
   font-family: 'Pokemon Solid', sans-serif;
   border: 1px solid rgb(88, 83, 1);
-  background-color: rgb(44, 44, 44);
+  background-color: rgb(31, 30, 30);
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -10,7 +10,7 @@
 }
 
 h1 {
-  color: rgb(187, 187, 8);
+  color: rgb(245, 245, 9);
   margin-right: 6px;
 }
 

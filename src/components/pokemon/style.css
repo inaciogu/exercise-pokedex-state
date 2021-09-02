@@ -10,11 +10,11 @@
   margin: 10px 10px;
   border: 1px rgb(0, 0, 0) solid;
   border-radius: 10px;
-  background: linear-gradient(to right, rgb(212, 29, 29), white);
+  background: linear-gradient(to right, yellow, rgb(241, 231, 135));
   animation-name: hover-degrade;
   background-size: 500%;
   color: rgb(7, 7, 7);
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
